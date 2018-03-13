@@ -1,11 +1,48 @@
-.game-area {
-    background: rgba(245, 235, 182, 0.548);
+body {
+	background: url("../images/power-bg.jpg");
+
+}
+h1 { 
+	text-align: center;
+	color: white;
 }
 
-.counter-area {
-    background: rgba(157, 201, 238, 0.548);
+.game-area{
+	background: rgba(255, 255, 255, 0.897);
+	min-height: 314px;
+}
+#zordon-image{
+
+}
+.rules{
+	background: rgba(255, 255, 255, 0.699);
+
+}
+.rules p{
+	font-size: 16px;
 }
 
-.tally-area {
-    background: rgba(157, 238, 204, 0.548);
+.row {
+	margin-bottom: 10px;
+}
+
+.randomNumberDiv {
+	background-color: tomato;
+
+}
+
+#randomNumber{
+	font-size: 66px;
+}
+
+#userScore{
+	font-size: 44px;
+}
+.winsLossesDiv {
+	background-color: lightblue;
+}
+
+.scoreDiv {
+	background-color: rgb(7, 165, 60);
+	text-align: center;
 }
